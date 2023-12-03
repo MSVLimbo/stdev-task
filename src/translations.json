@@ -1,0 +1,32 @@
+{
+  "en": {
+    "translation": {
+      "404-page-not-found.title": "404",
+      "404-page-not-found.content": "Page not Found.",
+      "404-page-not-found.button.go-to-home": "Go to Home Page",
+      "product.name": "STDev",
+      "sign-in-popup.title": "Sign In",
+      "sign-in-popup.button.sign-in": "Sign In",
+      "sign-in-popup.button.create-an-account": "Sign Up",
+      "sign-in-popup.button.remember-me": "Remember me",
+      "sign-in-popup.password-field.title": "Password",
+      "sign-in-popup.login-field.title": "Email",
+      "sign-in.email-filed.error.incorrect-email": "Please input proper email",
+      "sign-in.password-filed.error.weak-password": "Your password must be at least 4 characters long.",
+      "sign-in-popup.pre-register": "Need an account?",
+      "sign-up-popup.title": "Sign Up",
+      "sign-un-popup.button.sign-up": "Sign Up",
+      "sign-un-popup.pre-login": "Already have an account?",
+      "sign-up-popup.button.login": "Log in",
+      "sign-up-popup.field.first-name.title": "First Name",
+      "sign-up-popup.field.last-name.title": "Last Name",
+      "sign-up-popup.field.email.title": "Email",
+      "sign-up-popup.field.password.title": "Password",
+      "sign-up-popup.field.confirm-password.title": "Confirm password",
+      "sign-up.fields.error.require": "This field cannot be empty",
+      "sign-up.password-filed.error.weak-password": "Password is weak. Your password must be at least 4 characters long.",
+      "sign-up.confirm-filed.error.compare": "Confirm password don't match.",
+      "header.logout.button": "Logout"
+    }
+  }
+}
