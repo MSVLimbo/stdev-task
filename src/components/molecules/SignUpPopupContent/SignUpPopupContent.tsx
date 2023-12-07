@@ -162,7 +162,7 @@ function SignUpPopupContent({
                     value={fieldsState.password.value}
                     onChange={event => setField('password', event.target.value, setFieldsState)}
                     error={fieldsState.password.errors}
-                    actionIcon={showPass.pass ? 'ic-eye-not-visible' : 'ic-eye-visible'}
+                    actionIcon={showPass.pass ? 'ic-eye-blocked' : 'ic-eye'}
                     onAction={() => handleChangeShowPass('pass')}
                     onBlur={() => validatePassword(fieldsState.password.value, setFieldsState)}
                     size={handleSize(viewHeight, InputSizeTypes)}
@@ -175,7 +175,7 @@ function SignUpPopupContent({
                     value={fieldsState.confirmPassword.value}
                     onChange={event => setField('confirmPassword', event.target.value, setFieldsState)}
                     error={fieldsState.confirmPassword.errors}
-                    actionIcon={showPass.confirm ? 'ic-eye-not-visible' : 'ic-eye-visible'}
+                    actionIcon={showPass.confirm ? 'ic-eye-blocked' : 'ic-eye'}
                     onAction={() => handleChangeShowPass('confirm')}
                     onBlur={() => validateConfirmPassword(fieldsState.confirmPassword.value, fieldsState.password.value, setFieldsState)}
                     size={handleSize(viewHeight, InputSizeTypes)}

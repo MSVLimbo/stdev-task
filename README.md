@@ -1,3 +1,21 @@
+## Instalation
+```bash
+$ npm install
+```
+
+## Copy Environment Variables
+```bash
+$ cp -R .env.example .env
+```
+## Running the App
+```bash
+# run platform
+$ npm run dev
+```
+
+## Issues
+If you have cross-origin allow access problem, use heroku
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

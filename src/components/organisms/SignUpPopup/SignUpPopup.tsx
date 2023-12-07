@@ -54,13 +54,13 @@ function SignUpPopup({onClose, className}: SignInPopupProps) {
         if (content.isValid) {
             // @ts-ignore
             const {firstName, lastName, email, password, image} = content?.data;
-            const formData = new FormData();
-            const abbr = email.indexOf('@');
+            // const formData = new FormData();
+            // const abbr = email.indexOf('@');
+            // // @ts-ignore
+            // formData.append('file', image as Blob, abbr);
 
-            // @ts-ignore
-            formData.append('file', image as Blob, abbr);
             dispatch(signUp({
-                "first-name": firstName, "last-name": lastName, email: email, image: formData, password: password,
+                "first-name": firstName, "last-name": lastName, email: email, image: image, password: password,
             })).then(() => {
                 dispatch(
                     signIn({

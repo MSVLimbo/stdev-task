@@ -39,7 +39,7 @@ export class Auth {
     public static async login(loginUserDto: ILoginUserDto): Promise<void> {
         const {email, password} = loginUserDto
         return publicClient
-            .post(authPath.LOGIN, {email, password})
+            .post(authPath.LOGIN, {email:email.value, password:password.value})
             .then(res => {
                 const {token, user} = res.data;
                 storeTokens(token.access, token.refresh);
