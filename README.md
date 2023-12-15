@@ -1,11 +1,11 @@
 ## Instalation
 ```bash
-$ npm install
+$ npm ci
 ```
 
 ## Copy Environment Variables
 ```bash
-$ cp -R .env.example .env
+$ cp .env.example .env
 ```
 ## Running the App
 ```bash
